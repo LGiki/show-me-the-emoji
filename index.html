@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+    <title>👀 Show me the emoji</title>
+    <link rel="stylesheet" href="main.css"/>
+    <script src="https://twemoji.maxcdn.com/v/latest/twemoji.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <div class="title">👀 Show me the emoji</div>
+        <div class="setting">
+            <label class="toggle">
+                <input type="checkbox" id="render-in-twemoji-toggle"/>
+                Render in Twemoji
+            </label>
+        </div>
+    </header>
+    <main class="main">
+        <div class="main-left">
+            <div class="content-input-container">
+                <div class="placeholder">Paste your content here</div>
+                <textarea class="blur-container scrollbar" id="content-input"></textarea>
+            </div>
+            <div class="twemoji-preview-container">
+                <div class="placeholder">See the emoji explain here</div>
+                <div class="blur-container scrollbar twemoji-preview"></div>
+            </div>
+        </div>
+        <div class="emoji-explain-container">
+            <div class="placeholder">See the emoji explain here</div>
+            <ul class="scrollbar blur-container" id="emoji-explain"></ul>
+        </div>
+    </main>
+    <footer>
+        <a target="_blank" href="https://github.com/LGiki/show-me-the-emoji">Github</a>
+    </footer>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
