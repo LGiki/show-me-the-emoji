@@ -169,3 +169,27 @@ footer {
 .scrollbar::-webkit-scrollbar-thumb:hover {
     background: rgba(0, 0, 0, .5);
 }
+
+@media (max-width: 768px) {
+    .container {
+        margin: 0 5vw;
+    }
+
+    .title {
+        font-size: 1rem;
+    }
+
+    main {
+        flex-direction: column;
+    }
+
+    .main-left {
+        width: 100%;
+    }
+}
+
+@media (max-width: 375px) {
+    .title, .setting {
+        font-size: .8rem;
+    }
+}
