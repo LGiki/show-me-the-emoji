@@ -93,7 +93,7 @@ main {
 }
 
 .content-input-container:focus-within {
-    box-shadow: 0 0 12px rgba(255, 255, 255, .85);
+    box-shadow: 0 0 8px rgba(255, 255, 255, .85);
 }
 
 .twemoji-preview {
