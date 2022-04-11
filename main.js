@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', async () => {
             emojiSet.add(emoji[0])
         }
         if (emojiSet.size === 0 && content.length !== 0) {
-            emojiExplainList.innerHTML = '😢 No emoji detected'
+            emojiExplainList.innerHTML = '<div style="text-align: center">😢 No emoji detected</div>'
         } else {
             for (const emoji of emojiSet) {
                 const emojiElement = document.createElement('li')
